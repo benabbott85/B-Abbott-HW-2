@@ -1,3 +1,37 @@
-#emailname {
-    margin-left: 10px;
+footer {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border-style: solid none none none;
+    border-color: #4aaaa5;
+    border-width: 5px;
+    left: -10px;
+    margin-right: -10px;
+
 }
+
+.background {
+    z-index: -1;
+    background-image: url(greek-vase.png);
+    width: 100%;
+    height:10200px;
+    position: fixed;
+}
+
+.wrapper {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 20px;
+}
+
+h1 {
+    background:teal;
+    color: white;
+    width:250px;
+}
+
